@@ -21,23 +21,23 @@
 </head>
 
 <body>
-    <header class="header position-fixed ">
-        <nav class="navbar navbar-expand-lg navbar-light ">
+    <header class="header  ">
+        <nav class="navbar navbar-expand-lg navbar-light header__lg">
             <button class="navbar-toggler  " type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav flex-column navbar__list">
+                <ul class="navbar-nav flex-column navbar__list ">
                     <li
-                        class="nav__item active d-flex align-items-lg-center justify-content-lg-center  position-relative  rounded-circle mb-4">
+                        class="nav__item nav__item-active active d-flex align-items-lg-center justify-content-lg-center  position-relative  rounded-circle mb-4">
                         <i class="fas fa-home"></i>
                         <a class="nav__link  position-relative " href="index.html">
                             <h2>HOME</h2> </span>
                         </a>
                     </li>
                     <li
-                        class="nav__item nav__item-active d-flex align-items-lg-center justify-content-lg-center  position-relative  rounded-circle mb-4">
+                        class="nav__item d-flex align-items-lg-center justify-content-lg-center  position-relative  rounded-circle mb-4">
                         <i class="fas fa-user "></i>
                         <a class="nav__link position-relative" href="about.html">
                             <h2>ABOUT</h2>
@@ -66,14 +66,64 @@
                         </a>
                     </li>
                 </ul>
+
             </div>
         </nav>
+        <nav class="navbar navbar-expand-lg  navbar-dark header__md header__navbar">
+            <div class="container ">
+                <h1 class="text-uppercase title__h1 ">
+                    About <span>me</span>
+                </h1>
+
+                <button class="navbar-toggler navbar__button " type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse  " id="collapsibleNavbar">
+                <ul class="navbar-nav  navbar__list-md">
+                    <li class=" ">
+                        <i class="fas fa-home"></i>
+                        <a class="  " href="index.html">
+                            <h2>HOME</h2> </span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <i class="fas fa-user "></i>
+                        <a class="" href="about.html">
+                            <h2>ABOUT</h2>
+                        </a>
+                    </li>
+                    <li class="navbar__item-md--active ">
+                        <i class="fas fa-briefcase"></i>
+                        <a class="" href="fortfolio.html">
+                            <h2>FORTFOLIO</h2>
+                        </a>
+                    </li>
+                    <li class="">
+                        <i class="fas fa-envelope-open"></i>
+                        <a class=" " href="contact.html">
+                            <h2>CONTACT</h2>
+                        </a>
+                    </li>
+
+                    <li class="">
+                        <i class="fas fa-comments"></i>
+                        <a class="  " href="blog.html">
+                            <h2>BLOG</h2>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
     </header>
     <main class="main">
         <div class="about">
             <section class="about__title">
                 <div class="title position-relative text-center h-25">
-                    <h1 class="text-uppercase ">
+                    <h1 class="text-uppercase title__h1">
                         About <span>me</span>
                     </h1>
                     <span class="position-absolute  text-uppercase text-center display-1 title-bg">
@@ -86,6 +136,10 @@
                     <div class="row about__info">
                         <div class="col-xl-6 col-lg-5 col-md-12 col-12 mb-5">
                             <div class="row">
+                                <div class="col-sm-6 col-8 mx-auto mb-5">
+                                    <div class="about__img mx-auto ">
+                                    </div>
+                                </div>
                                 <div class="col-12 ">
                                     <h3 class=" sub-title text-uppercase ">PERSONAL INFOS </h3>
                                 </div>
@@ -117,159 +171,159 @@
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-12">
                             <div class="row">
-                                <div class="col-6">
+                                <div class="col-md-6 col-9 mx-auto">
                                     <div class="about__experience">
                                         <h3>12</h3>
                                         <p class="text-uppercase">years of <br>experience</p>
                                     </div>
                                 </div>
-                                <div class="col-6">
-                                    <div class="about__experience">
-                                        <h3>97</h3>
-                                        <p class="text-uppercase">COMPLETED
-                                            <br>PROJECTS
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="about__experience">
-                                        <h3>81</h3>
-                                        <p class="text-uppercase">happy <br>customers</p>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="about__experience">
-                                        <h3>53</h3>
-                                        <p class="text-uppercase">awards<br>won</p>
-                                    </div>
+                                <div class="col-md-6 col-9 mx-auto"">
+                                    <div class=" about__experience">
+                                    <h3>97</h3>
+                                    <p class="text-uppercase">COMPLETED
+                                        <br>PROJECTS
+                                    </p>
                                 </div>
                             </div>
+                            <div class="col-md-6 col-9 mx-auto"">
+                                    <div class=" about__experience">
+                                <h3>81</h3>
+                                <p class="text-uppercase">happy <br>customers</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-9 mx-auto"">
+                                    <div class=" about__experience">
+                            <h3>53</h3>
+                            <p class="text-uppercase">awards<br>won</p>
                         </div>
                     </div>
                 </div>
-            </section>
-            <hr class="col-4 ">
-            <section class="about__skill">
-                <div class="container">
-                    <div class="text-center">
-                        <h3 class="text-uppercase sub-title text-center">
-                            my skills
-                        </h3>
-                    </div>
-                    <div class="skill__list">
-                        <div class="row">
-                            <div class="col-lg-3 col-6">
-                                <div class="skill__item text-center mx-auto ">
-                                    <i class="fab fa-html5"></i>
-                                    <h4>HTML</h4>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-6">
-                                <div class="skill__item text-center mx-auto">
-                                    <i class="fab fa-css3-alt"></i>
-                                    <h4>CSS</h4>
-                                </div>
-
-                            </div>
-                            <div class="col-lg-3 col-6">
-                                <div class="skill__item text-center mx-auto">
-                                    <i class="fab fa-js"></i>
-                                    <h4>JavaScript</h4>
-                                </div>
-
-                            </div>
-                            <div class="col-lg-3 col-6">
-                                <div class="skill__item text-center mx-auto">
-                                    <i class="fab fa-react"></i>
-                                    <h4>ReactJs</h4>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        <hr class="col-4 ">
+        <section class="about__skill">
+            <div class="container">
+                <div class="text-center">
+                    <h3 class="text-uppercase sub-title text-center">
+                        my skills
+                    </h3>
                 </div>
-
-            </section>
-            <hr class="col-4 ">
-            <section class="about__education">
-                <div class="container">
+                <div class="skill__list">
                     <div class="row">
-                        <div class="col-lg-6 col-md-12">
-                            <ul class="education__list">
-                                <li class="position-relative text-to">
-                                    <i class="fas fa-briefcase education__icon position-absolute  po"></i>
-                                    <div class="education__content h-100">
-                                        <span class="education__timeline">2018 - PRESENT</span>
-                                        <h3 class="education__title">WEB DEVELOPER <span>- ENVATO</span></h3>
-                                        <p class="education__desc">Lorem ipsum dolor sit amet, consectetur tempor
-                                            incididunt ut labore adipisicing elit,
-                                        </p>
-                                    </div>
-                                </li>
-                                <li class="position-relative">
-                                    <i class="fas fa-briefcase education__icon position-absolute "></i>
-                                    <div class="education__content">
-                                        <span class="education__timeline">2013 - 2018</span>
-                                        <h3 class="education__title">UI/UX DESIGNER <span>- THEMEFOREST</span></h3>
-                                        <p class="education__desc">Lorem ipsum dolor sit amet, consectetur tempor
-                                            incididunt ut labore adipisicing elit,
-                                        </p>
-                                    </div>
-                                </li>
-                                <li class="position-relative">
-                                    <i class="fas fa-briefcase education__icon position-absolute "></i>
-                                    <div class="education__content">
-                                        <span class="education__timeline">2005 - 2013</span>
-                                        <h3 class="education__title">CONSULTANT <span>- VIDEOHIVE</span></h3>
-                                        <p class="education__desc">Lorem ipsum dolor sit amet, consectetur tempor
-                                            incididunt ut labore adipisicing elit,
-                                        </p>
-                                    </div>
-                                </li>
-
-                            </ul>
+                        <div class="col-lg-3 col-6">
+                            <div class="skill__item text-center mx-auto ">
+                                <i class="fab fa-html5"></i>
+                                <h4>HTML</h4>
+                            </div>
                         </div>
-                        <div class="col-lg-6 col-md-12">
-                            <ul class="education__list">
-                                <li class="position-relative">
-                                    <i class="fas fa-briefcase education__icon position-absolute "></i>
-                                    <div class="education__content">
-                                        <span class="education__timeline">2015</span>
-                                        <h3 class="education__title">ENGINEERING DEGREE <span>- OXFORD UNIVERSITY</span>
-                                        </h3>
-                                        <p class="education__desc">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                            elit, sed do tempor incididunt ut labore
-                                        </p>
-                                    </div>
-                                </li>
-                                <li class="position-relative">
-                                    <i class="fas fa-briefcase education__icon position-absolute "></i>
-                                    <div class="education__content">
-                                        <span class="education__timeline">2012</span>
-                                        <h3 class="education__title">MASTER DEGREE <span>- KIEV UNIVERSITY</span></h3>
-                                        <p class="education__desc">Lorem ipsum dolor sit amet consectetur adipisicing
-                                            elit.
-                                        </p>
-                                    </div>
-                                </li>
-                                <li class="position-relative">
-                                    <i class="fas fa-briefcase education__icon position-absolute "></i>
-                                    <div class="education__content">
-                                        <span class="education__timeline">2009</span>
-                                        <h3 class="education__title">BACHELOR DEGREE <span>- TUNIS HIGH SCHOOL</span>
-                                        </h3>
-                                        <p class="education__desc">Lorem ipsum dolor sit amet consectetur adipisicing
-                                            elit.
-                                        </p>
-                                    </div>
-                                </li>
+                        <div class="col-lg-3 col-6">
+                            <div class="skill__item text-center mx-auto">
+                                <i class="fab fa-css3-alt"></i>
+                                <h4>CSS</h4>
+                            </div>
 
-                            </ul>
                         </div>
+                        <div class="col-lg-3 col-6">
+                            <div class="skill__item text-center mx-auto">
+                                <i class="fab fa-js"></i>
+                                <h4>JavaScript</h4>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3 col-6">
+                            <div class="skill__item text-center mx-auto">
+                                <i class="fab fa-react"></i>
+                                <h4>ReactJs</h4>
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
-            </section>
+            </div>
+
+        </section>
+        <hr class="col-4 ">
+        <section class="about__education">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <ul class="education__list">
+                            <li class="position-relative text-to">
+                                <i class="fas fa-briefcase education__icon position-absolute  po"></i>
+                                <div class="education__content h-100">
+                                    <span class="education__timeline">2018 - PRESENT</span>
+                                    <h3 class="education__title">WEB DEVELOPER <span>- ENVATO</span></h3>
+                                    <p class="education__desc">Lorem ipsum dolor sit amet, consectetur tempor
+                                        incididunt ut labore adipisicing elit,
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="position-relative">
+                                <i class="fas fa-briefcase education__icon position-absolute "></i>
+                                <div class="education__content">
+                                    <span class="education__timeline">2013 - 2018</span>
+                                    <h3 class="education__title">UI/UX DESIGNER <span>- THEMEFOREST</span></h3>
+                                    <p class="education__desc">Lorem ipsum dolor sit amet, consectetur tempor
+                                        incididunt ut labore adipisicing elit,
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="position-relative">
+                                <i class="fas fa-briefcase education__icon position-absolute "></i>
+                                <div class="education__content">
+                                    <span class="education__timeline">2005 - 2013</span>
+                                    <h3 class="education__title">CONSULTANT <span>- VIDEOHIVE</span></h3>
+                                    <p class="education__desc">Lorem ipsum dolor sit amet, consectetur tempor
+                                        incididunt ut labore adipisicing elit,
+                                    </p>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <ul class="education__list">
+                            <li class="position-relative">
+                                <i class="fas fa-briefcase education__icon position-absolute "></i>
+                                <div class="education__content">
+                                    <span class="education__timeline">2015</span>
+                                    <h3 class="education__title">ENGINEERING DEGREE <span>- OXFORD UNIVERSITY</span>
+                                    </h3>
+                                    <p class="education__desc">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        elit, sed do tempor incididunt ut labore
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="position-relative">
+                                <i class="fas fa-briefcase education__icon position-absolute "></i>
+                                <div class="education__content">
+                                    <span class="education__timeline">2012</span>
+                                    <h3 class="education__title">MASTER DEGREE <span>- KIEV UNIVERSITY</span></h3>
+                                    <p class="education__desc">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="position-relative">
+                                <i class="fas fa-briefcase education__icon position-absolute "></i>
+                                <div class="education__content">
+                                    <span class="education__timeline">2009</span>
+                                    <h3 class="education__title">BACHELOR DEGREE <span>- TUNIS HIGH SCHOOL</span>
+                                    </h3>
+                                    <p class="education__desc">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit.
+                                    </p>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
         </div>
         <div class="setting">
             <i class="fas fa-cog"></i>

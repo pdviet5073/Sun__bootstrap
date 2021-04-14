@@ -21,16 +21,16 @@
 </head>
 
 <body>
-    <header class="header position-fixed ">
-        <nav class="navbar navbar-expand-lg navbar-light ">
+    <header class="header  ">
+        <nav class="navbar navbar-expand-lg navbar-light header__lg">
             <button class="navbar-toggler  " type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav flex-column navbar__list header__lg">
+                <ul class="navbar-nav flex-column navbar__list ">
                     <li
-                        class="nav__item active d-flex align-items-lg-center justify-content-lg-center  position-relative  rounded-circle mb-4">
+                        class="nav__item nav__item-active active d-flex align-items-lg-center justify-content-lg-center  position-relative  rounded-circle mb-4">
                         <i class="fas fa-home"></i>
                         <a class="nav__link  position-relative " href="index.html">
                             <h2>HOME</h2> </span>
@@ -59,7 +59,7 @@
                     </li>
 
                     <li
-                        class="nav__item nav__item-active d-flex align-items-lg-center justify-content-lg-center position-relative  rounded-circle mb-4">
+                        class="nav__item d-flex align-items-lg-center justify-content-lg-center position-relative  rounded-circle mb-4">
                         <i class="fas fa-comments"></i>
                         <a class="nav__link  position-relative " href="blog.html">
                             <h2>BLOG</h2>
@@ -69,12 +69,61 @@
 
             </div>
         </nav>
+        <nav class="navbar navbar-expand-lg  navbar-dark header__md header__navbar">
+            <div class="container ">
+                <h1 class="text-uppercase title__h1 ">
+                    my <span>blog</span>
+                </h1>
+
+                <button class="navbar-toggler navbar__button " type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse  " id="collapsibleNavbar">
+                <ul class="navbar-nav  navbar__list-md">
+                    <li class=" ">
+                        <i class="fas fa-home"></i>
+                        <a class="  " href="index.html">
+                            <h2>HOME</h2> </span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <i class="fas fa-user "></i>
+                        <a class="" href="about.html">
+                            <h2>ABOUT</h2>
+                        </a>
+                    </li>
+                    <li class="navbar__item-md--active ">
+                        <i class="fas fa-briefcase"></i>
+                        <a class="" href="fortfolio.html">
+                            <h2>FORTFOLIO</h2>
+                        </a>
+                    </li>
+                    <li class="">
+                        <i class="fas fa-envelope-open"></i>
+                        <a class=" " href="contact.html">
+                            <h2>CONTACT</h2>
+                        </a>
+                    </li>
+
+                    <li class="">
+                        <i class="fas fa-comments"></i>
+                        <a class="  " href="blog.html">
+                            <h2>BLOG</h2>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
     </header>
     <main class="main">
         <div class="blog">
             <section class="contact__title">
                 <div class="title position-relative text-center h-25">
-                    <h1 class="text-uppercase ">
+                    <h1 class="text-uppercase title__h1">
                         my <span>blog</span>
                     </h1>
                     <span class="position-absolute  text-uppercase text-center display-1 title-bg">
@@ -105,35 +154,17 @@
                                                         src="http://slimhamdi.net/tunis/dark/img/blog/blog-post-1.jpg"
                                                         alt="blog__img"></a></div>
                                             <div class="blog__content">
-                                                <div class="blog__title text-clamp text-clamp--2">How to Own Your
-                                                    Audience by
-                                                    Creating an Email List
+                                                <div class="blog__title text-clamp text-clamp--2">
+                                                    <h3>How to Own Your
+                                                        Audience by
+                                                        Creating an Email List</h3>
                                                 </div>
-                                                <div class="blog__desc text-clamp text-clamp--3">Lorem ipsum dolor sit
-                                                    amet,
-                                                    consectetur adipisicing
-                                                    elit. Nihil reiciendis natus facilis accusantium dicta dolorum
-                                                    repellat
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-12">
-                                        <div class="blog__item">
-                                            <div class="blog__img"> <a href="#"><img
-                                                        src="http://slimhamdi.net/tunis/dark/img/blog/blog-post-1.jpg"
-                                                        alt="blog__img"></a></div>
-                                            <div class="blog__content">
-                                                <div class="blog__title text-clamp text-clamp--2">Top 10 Toolkits for
-                                                    Deep
-                                                    Learning in 2020
-                                                </div>
-                                                <div class="blog__desc text-clamp text-clamp--3">Lorem ipsum dolor sit
-                                                    amet,
-                                                    consectetur adipisicing
-                                                    elit. Nihil reiciendis natus facilis accusantium dicta dolorum
-                                                    repellat
+                                                <div class="blog__desc text-clamp text-clamp--3">
+                                                    <p>Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur adipisicing
+                                                        elit. Nihil reiciendis natus facilis accusantium dicta dolorum
+                                                        repellat</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -145,34 +176,19 @@
                                                         src="http://slimhamdi.net/tunis/dark/img/blog/blog-post-1.jpg"
                                                         alt="blog__img"></a></div>
                                             <div class="blog__content">
-                                                <div class="blog__title text-clamp text-clamp--2">Everything You Need to
-                                                    Know
-                                                    About Web Accessibility
+                                                <div class="blog__title text-clamp text-clamp--2">
+                                                    <h3>
+                                                        Top 10 Toolkits for
+                                                        Deep
+                                                        Learning in 2020
+                                                    </h3>
                                                 </div>
-                                                <div class="blog__desc text-clamp text-clamp--3">Lorem ipsum dolor sit
-                                                    amet,
-                                                    consectetur adipisicing
-                                                    elit. Nihil reiciendis natus facilis accusantium dicta dolorum
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-12">
-                                        <div class="blog__item">
-                                            <div class="blog__img"> <a href="#"><img
-                                                        src="http://slimhamdi.net/tunis/dark/img/blog/blog-post-1.jpg"
-                                                        alt="blog__img"></a></div>
-                                            <div class="blog__content">
-                                                <div class="blog__title text-clamp text-clamp--2">How to Inject Humor &
-                                                    Comedy
-                                                    Into Your Brand
-                                                </div>
-                                                <div class="blog__desc text-clamp text-clamp--3">Lorem ipsum dolor sit
-                                                    amet,
-                                                    consectetur adipisicing
-                                                    elit. Nihil reiciendis natus facilis accusantium dicta dolorum
-                                                    repellat
+                                                <div class="blog__desc text-clamp text-clamp--3">
+                                                    <p>Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur adipisicing
+                                                        elit. Nihil reiciendis natus facilis accusantium dicta dolorum
+                                                        repellat</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -184,15 +200,18 @@
                                                         src="http://slimhamdi.net/tunis/dark/img/blog/blog-post-1.jpg"
                                                         alt="blog__img"></a></div>
                                             <div class="blog__content">
-                                                <div class="blog__title text-clamp text-clamp--2">Women in Web Design:
-                                                    How To
-                                                    Achieve Success
+                                                <div class="blog__title text-clamp text-clamp--2">
+                                                    <h3>Everything You Need to
+                                                        Know
+                                                        About Web Accessibility</h3>
                                                 </div>
-                                                <div class="blog__desc text-clamp text-clamp--3">Lorem ipsum dolor sit
-                                                    amet,
-                                                    consectetur adipisicing
-                                                    elit. Nihil reiciendis natus facilis accusantium dicta dolorum
-                                                    repellat
+                                                <div class="blog__desc text-clamp text-clamp--3">
+                                                    <p>
+                                                        Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur adipisicing
+                                                        elit. Nihil reiciendis natus facilis accusantium dicta dolorum
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -204,14 +223,66 @@
                                                         src="http://slimhamdi.net/tunis/dark/img/blog/blog-post-1.jpg"
                                                         alt="blog__img"></a></div>
                                             <div class="blog__content">
-                                                <div class="blog__title text-clamp text-clamp--2">Evergreen versus
-                                                    topical
-                                                    content: An overview
+                                                <div class="blog__title text-clamp text-clamp--2">
+                                                    <h3>How to Inject Humor &
+                                                        Comedy
+                                                        Into Your Brand</h3>
                                                 </div>
-                                                <div class="blog__desc text-clamp text-clamp--3">Lorem ipsum dolor sit
-                                                    amet,
-                                                    consectetur adipisicing
-                                                    elit. Nihil reiciendis natus facilis accusantium dicta
+                                                <div class="blog__desc text-clamp text-clamp--3">
+                                                    <p>Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur adipisicing
+                                                        elit. Nihil reiciendis natus facilis accusantium dicta dolorum
+                                                        repellat</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="blog__item">
+                                            <div class="blog__img"> <a href="#"><img
+                                                        src="http://slimhamdi.net/tunis/dark/img/blog/blog-post-1.jpg"
+                                                        alt="blog__img"></a></div>
+                                            <div class="blog__content">
+                                                <div class="blog__title text-clamp text-clamp--2">
+                                                    <h3>
+                                                        Women in Web Design:
+                                                        How To
+                                                        Achieve Success
+                                                    </h3>
+                                                </div>
+                                                <div class="blog__desc text-clamp text-clamp--3">
+                                                    <p>Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur adipisicing
+                                                        elit. Nihil reiciendis natus facilis accusantium dicta dolorum
+                                                        repellat</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="blog__item">
+                                            <div class="blog__img"> <a href="#"><img
+                                                        src="http://slimhamdi.net/tunis/dark/img/blog/blog-post-1.jpg"
+                                                        alt="blog__img"></a></div>
+                                            <div class="blog__content">
+                                                <div class="blog__title text-clamp text-clamp--2">
+                                                    <h3>
+                                                        Evergreen versus
+                                                        topical
+                                                        content: An overview
+                                                    </h3>
+                                                </div>
+                                                <div class="blog__desc text-clamp text-clamp--3">
+                                                    <p>
+                                                        Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur adipisicing
+                                                        elit. Nihil reiciendis natus facilis accusantium dicta
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -233,35 +304,19 @@
                                                 </a>
                                             </div>
                                             <div class="blog__content">
-                                                <div class="blog__title text-clamp text-clamp--2">How to Own Your
-                                                    Audience by
-                                                    Creating an Email List
+                                                <div class="blog__title text-clamp text-clamp--2">
+                                                    <h3>
+                                                        How to Own Your
+                                                        Audience by
+                                                        Creating an Email List
+                                                    </h3>
                                                 </div>
-                                                <div class="blog__desc text-clamp text-clamp--3">Lorem ipsum dolor sit
-                                                    amet,
-                                                    consectetur adipisicing
-                                                    elit. Nihil reiciendis natus facilis accusantium dicta dolorum
-                                                    repellat
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-12">
-                                        <div class="blog__item">
-                                            <div class="blog__img"> <a href="#"><img
-                                                        src="http://slimhamdi.net/tunis/dark/img/blog/blog-post-1.jpg"
-                                                        alt="blog__img"></a></div>
-                                            <div class="blog__content">
-                                                <div class="blog__title text-clamp text-clamp--2">Top 10 Toolkits for
-                                                    Deep
-                                                    Learning in 2020
-                                                </div>
-                                                <div class="blog__desc text-clamp text-clamp--3">Lorem ipsum dolor sit
-                                                    amet,
-                                                    consectetur adipisicing
-                                                    elit. Nihil reiciendis natus facilis accusantium dicta dolorum
-                                                    repellat
+                                                <div class="blog__desc text-clamp text-clamp--3">
+                                                    <p>Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur adipisicing
+                                                        elit. Nihil reiciendis natus facilis accusantium dicta dolorum
+                                                        repellat</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -273,34 +328,19 @@
                                                         src="http://slimhamdi.net/tunis/dark/img/blog/blog-post-1.jpg"
                                                         alt="blog__img"></a></div>
                                             <div class="blog__content">
-                                                <div class="blog__title text-clamp text-clamp--2">Everything You Need to
-                                                    Know
-                                                    About Web Accessibility
+                                                <div class="blog__title text-clamp text-clamp--2">
+                                                    <h3>
+                                                        Top 10 Toolkits for
+                                                        Deep
+                                                        Learning in 2020
+                                                    </h3>
                                                 </div>
-                                                <div class="blog__desc text-clamp text-clamp--3">Lorem ipsum dolor sit
-                                                    amet,
-                                                    consectetur adipisicing
-                                                    elit. Nihil reiciendis natus facilis accusantium dicta dolorum
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-12">
-                                        <div class="blog__item">
-                                            <div class="blog__img"> <a href="#"><img
-                                                        src="http://slimhamdi.net/tunis/dark/img/blog/blog-post-1.jpg"
-                                                        alt="blog__img"></a></div>
-                                            <div class="blog__content">
-                                                <div class="blog__title text-clamp text-clamp--2">How to Inject Humor &
-                                                    Comedy
-                                                    Into Your Brand
-                                                </div>
-                                                <div class="blog__desc text-clamp text-clamp--3">Lorem ipsum dolor sit
-                                                    amet,
-                                                    consectetur adipisicing
-                                                    elit. Nihil reiciendis natus facilis accusantium dicta dolorum
-                                                    repellat
+                                                <div class="blog__desc text-clamp text-clamp--3">
+                                                    <p>Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur adipisicing
+                                                        elit. Nihil reiciendis natus facilis accusantium dicta dolorum
+                                                        repellat</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -312,15 +352,44 @@
                                                         src="http://slimhamdi.net/tunis/dark/img/blog/blog-post-1.jpg"
                                                         alt="blog__img"></a></div>
                                             <div class="blog__content">
-                                                <div class="blog__title text-clamp text-clamp--2">Women in Web Design:
-                                                    How To
-                                                    Achieve Success
+                                                <div class="blog__title text-clamp text-clamp--2">
+                                                    <h3>
+                                                        Everything You Need to
+                                                        Know
+                                                        About Web Accessibility
+                                                    </h3>
                                                 </div>
-                                                <div class="blog__desc text-clamp text-clamp--3">Lorem ipsum dolor sit
-                                                    amet,
-                                                    consectetur adipisicing
-                                                    elit. Nihil reiciendis natus facilis accusantium dicta dolorum
-                                                    repellat
+                                                <div class="blog__desc text-clamp text-clamp--3">
+                                                    <p>
+                                                        Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur adipisicing
+                                                        elit. Nihil reiciendis natus facilis accusantium dicta dolorum
+                                                </div>
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="blog__item">
+                                            <div class="blog__img"> <a href="#"><img
+                                                        src="http://slimhamdi.net/tunis/dark/img/blog/blog-post-1.jpg"
+                                                        alt="blog__img"></a></div>
+                                            <div class="blog__content">
+                                                <div class="blog__title text-clamp text-clamp--2">
+                                                    <h3>How to Inject Humor &
+                                                        Comedy
+                                                        Into Your Brand</h3>
+                                                </div>
+                                                <div class="blog__desc text-clamp text-clamp--3">
+                                                    <p>
+                                                        Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur adipisicing
+                                                        elit. Nihil reiciendis natus facilis accusantium dicta dolorum
+                                                        repellat
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -332,14 +401,46 @@
                                                         src="http://slimhamdi.net/tunis/dark/img/blog/blog-post-1.jpg"
                                                         alt="blog__img"></a></div>
                                             <div class="blog__content">
-                                                <div class="blog__title text-clamp text-clamp--2">Evergreen versus
-                                                    topical
-                                                    content: An overview
+                                                <div class="blog__title text-clamp text-clamp--2">
+                                                    <h3>
+                                                        Women in Web Design:
+                                                        How To
+                                                        Achieve Success
+                                                    </h3>
                                                 </div>
-                                                <div class="blog__desc text-clamp text-clamp--3">Lorem ipsum dolor sit
-                                                    amet,
-                                                    consectetur adipisicing
-                                                    elit. Nihil reiciendis natus facilis accusantium dicta
+                                                <div class="blog__desc text-clamp text-clamp--3">
+                                                    <p>
+                                                        Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur adipisicing
+                                                        elit. Nihil reiciendis natus facilis accusantium dicta dolorum
+                                                        repellat
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="blog__item">
+                                            <div class="blog__img"> <a href="#"><img
+                                                        src="http://slimhamdi.net/tunis/dark/img/blog/blog-post-1.jpg"
+                                                        alt="blog__img"></a></div>
+                                            <div class="blog__content">
+                                                <div class="blog__title text-clamp text-clamp--2">
+                                                    <h3>
+                                                        Evergreen versus
+                                                        topical
+                                                        content: An overview
+                                                    </h3>
+                                                </div>
+                                                <div class="blog__desc text-clamp text-clamp--3">
+                                                    <p>
+                                                        Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur adipisicing
+                                                        elit. Nihil reiciendis natus facilis accusantium dicta
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -358,35 +459,21 @@
                                                         src="http://slimhamdi.net/tunis/dark/img/blog/blog-post-5.jpg"
                                                         alt="blog__img"></a></div>
                                             <div class="blog__content">
-                                                <div class="blog__title text-clamp text-clamp--2">How to Own Your
-                                                    Audience by
-                                                    Creating an Email List
+                                                <div class="blog__title text-clamp text-clamp--2">
+                                                    <h3>
+                                                        How to Own Your
+                                                        Audience by
+                                                        Creating an Email List
+                                                    </h3>
                                                 </div>
-                                                <div class="blog__desc text-clamp text-clamp--3">Lorem ipsum dolor sit
-                                                    amet,
-                                                    consectetur adipisicing
-                                                    elit. Nihil reiciendis natus facilis accusantium dicta dolorum
-                                                    repellat
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-12">
-                                        <div class="blog__item">
-                                            <div class="blog__img"> <a href="#"><img
-                                                        src="http://slimhamdi.net/tunis/dark/img/blog/blog-post-1.jpg"
-                                                        alt="blog__img"></a></div>
-                                            <div class="blog__content">
-                                                <div class="blog__title text-clamp text-clamp--2">Top 10 Toolkits for
-                                                    Deep
-                                                    Learning in 2020
-                                                </div>
-                                                <div class="blog__desc text-clamp text-clamp--3">Lorem ipsum dolor sit
-                                                    amet,
-                                                    consectetur adipisicing
-                                                    elit. Nihil reiciendis natus facilis accusantium dicta dolorum
-                                                    repellat
+                                                <div class="blog__desc text-clamp text-clamp--3">
+                                                    <p>
+                                                        Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur adipisicing
+                                                        elit. Nihil reiciendis natus facilis accusantium dicta dolorum
+                                                        repellat
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -398,34 +485,20 @@
                                                         src="http://slimhamdi.net/tunis/dark/img/blog/blog-post-1.jpg"
                                                         alt="blog__img"></a></div>
                                             <div class="blog__content">
-                                                <div class="blog__title text-clamp text-clamp--2">Everything You Need to
-                                                    Know
-                                                    About Web Accessibility
+                                                <div class="blog__title text-clamp text-clamp--2">
+                                                    <h3>
+                                                        Top 10 Toolkits for
+                                                        Deep
+                                                        Learning in 2020
+                                                    </h3>
                                                 </div>
-                                                <div class="blog__desc text-clamp text-clamp--3">Lorem ipsum dolor sit
-                                                    amet,
-                                                    consectetur adipisicing
-                                                    elit. Nihil reiciendis natus facilis accusantium dicta dolorum
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-12">
-                                        <div class="blog__item">
-                                            <div class="blog__img"> <a href="#"><img
-                                                        src="http://slimhamdi.net/tunis/dark/img/blog/blog-post-1.jpg"
-                                                        alt="blog__img"></a></div>
-                                            <div class="blog__content">
-                                                <div class="blog__title text-clamp text-clamp--2">How to Inject Humor &
-                                                    Comedy
-                                                    Into Your Brand
-                                                </div>
-                                                <div class="blog__desc text-clamp text-clamp--3">Lorem ipsum dolor sit
-                                                    amet,
-                                                    consectetur adipisicing
-                                                    elit. Nihil reiciendis natus facilis accusantium dicta dolorum
-                                                    repellat
+                                                <div class="blog__desc text-clamp text-clamp--3">
+                                                    <p>
+                                                        Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur adipisicing
+                                                        elit. Nihil reiciendis natus facilis accusantium dicta dolorum
+                                                        repellat</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -437,15 +510,19 @@
                                                         src="http://slimhamdi.net/tunis/dark/img/blog/blog-post-1.jpg"
                                                         alt="blog__img"></a></div>
                                             <div class="blog__content">
-                                                <div class="blog__title text-clamp text-clamp--2">Women in Web Design:
-                                                    How To
-                                                    Achieve Success
+                                                <div class="blog__title text-clamp text-clamp--2">
+                                                    <h3>
+                                                        Everything You Need to
+                                                        Know
+                                                        About Web Accessibility
+                                                    </h3>
                                                 </div>
-                                                <div class="blog__desc text-clamp text-clamp--3">Lorem ipsum dolor sit
-                                                    amet,
-                                                    consectetur adipisicing
-                                                    elit. Nihil reiciendis natus facilis accusantium dicta dolorum
-                                                    repellat
+                                                <div class="blog__desc text-clamp text-clamp--3">
+                                                    <p>Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur adipisicing
+                                                        elit. Nihil reiciendis natus facilis accusantium dicta dolorum
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -457,14 +534,68 @@
                                                         src="http://slimhamdi.net/tunis/dark/img/blog/blog-post-1.jpg"
                                                         alt="blog__img"></a></div>
                                             <div class="blog__content">
-                                                <div class="blog__title text-clamp text-clamp--2">Evergreen versus
-                                                    topical
-                                                    content: An overview
+                                                <div class="blog__title text-clamp text-clamp--2">
+                                                    <h3>
+                                                        How to Inject Humor &
+                                                        Comedy
+                                                        Into Your Brand
+                                                    </h3>
                                                 </div>
-                                                <div class="blog__desc text-clamp text-clamp--3">Lorem ipsum dolor sit
-                                                    amet,
-                                                    consectetur adipisicing
-                                                    elit. Nihil reiciendis natus facilis accusantium dicta
+                                                <div class="blog__desc text-clamp text-clamp--3">
+                                                    <p>
+                                                        Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur adipisicing
+                                                        elit. Nihil reiciendis natus facilis accusantium dicta dolorum
+                                                        repellat</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="blog__item">
+                                            <div class="blog__img"> <a href="#"><img
+                                                        src="http://slimhamdi.net/tunis/dark/img/blog/blog-post-1.jpg"
+                                                        alt="blog__img"></a></div>
+                                            <div class="blog__content">
+                                                <div class="blog__title text-clamp text-clamp--2">
+                                                    <h3>
+                                                        Women in Web Design:
+                                                        How To
+                                                        Achieve Success
+                                                    </h3>
+                                                </div>
+                                                <div class="blog__desc text-clamp text-clamp--3">
+                                                    <p>
+                                                        Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur adipisicing
+                                                        elit. Nihil reiciendis natus facilis accusantium dicta dolorum
+                                                        repellat</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="blog__item">
+                                            <div class="blog__img"> <a href="#"><img
+                                                        src="http://slimhamdi.net/tunis/dark/img/blog/blog-post-1.jpg"
+                                                        alt="blog__img"></a></div>
+                                            <div class="blog__content">
+                                                <div class="blog__title text-clamp text-clamp--2">
+                                                    <h3>
+                                                        Evergreen versus
+                                                        topical
+                                                        content: An overview
+                                                    </h3>
+                                                </div>
+                                                <div class="blog__desc text-clamp text-clamp--3">
+                                                    <p>Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur adipisicing
+                                                        elit. Nihil reiciendis natus facilis accusantium dicta</p>
                                                 </div>
                                             </div>
                                         </div>
