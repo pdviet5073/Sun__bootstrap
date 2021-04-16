@@ -711,6 +711,7 @@ hr {
 }
 
 .fortfolio-model__item {
+    width: 50%;
     padding: 4rem;
     background-color: var(--border-blurred);
     border-radius: 12px;
@@ -1105,6 +1106,9 @@ hr {
     .about__img {
         display: block;
     }
+    .modal-dialog {
+        margin-top: 5rem;
+    }
 }
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
@@ -1114,6 +1118,9 @@ hr {
     }
     .home__title {
         margin-bottom: 2rem;
+    }
+    .fortfolio-model__item {
+        width: 75%;
     }
 }
 
@@ -1131,5 +1138,14 @@ hr {
     }
     .info__list li > span {
         display: block;
+    }
+    .fortfolio-model__item {
+        width: 90%;
+        padding: 2rem;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 2rem;
+        height: 2rem;
     }
 }
