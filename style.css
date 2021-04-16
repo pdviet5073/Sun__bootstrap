@@ -1068,7 +1068,8 @@ hr {
     .navbar__list-md h2 {
         padding-left: 2rem;
     }
-    .navbar__item-md--active h2 {
+    .navbar__item-md--active h2,
+    .navbar__item-md--active i {
         color: var(--yellow);
     }
     .navbar-expand-lg > .container {
